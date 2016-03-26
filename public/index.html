@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+  <title>Davenhauser</title>
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="">
+
+  <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+
+</head>
+
+<header>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <ul class="nav navbar-nav">
+            <li><a ui-sref="home"  ui-sref-active="active" class="btn" >Home</a></li>
+            <!-- <li><a  ui-sref="about"  ui-sref-active="active" class="btn">About</a></li> -->
+            <!-- <li><a  ui-sref="answers"  ui-sref-active="active" class="btn">Projects</a></li>
+            <li><a  ui-sref="answers"  ui-sref-active="active" class="btn">Contact</a></li> -->
+
+
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+<main ui-view>
+      <!-- PAGE TEMPLATES INSERT HERE -->
+</main>
+
+
+<script src="/js/app.module.js"></script>
+<script src="/js/app.routes.js"></script>
+<script src="/js/app/home/home.controller.js"></script>
+</body>
+</html>
