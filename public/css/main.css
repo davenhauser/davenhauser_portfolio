@@ -1,4 +1,4 @@
-*,
+/**,
 html,
 body {
   box-sizing: border-box;
@@ -11,3 +11,54 @@ body {
 }
 
 a { color: #00B7FF; }
+*/
+
+*, html{
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+  color: #fff;
+  font-family: helvetica;
+  text-align: center;
+
+}
+#home{
+/*  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Solid_blue.svg/2000px-Solid_blue.svg.png") 50% 0 no-repeat fixed;
+*/  background-color: black;
+}
+#section2{
+/*  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Color_icon_green.svg/2000px-Color_icon_green.svg.png") 50% 0 no-repeat fixed;
+*/  background-color: grey;
+}
+#section3{
+/*  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Color_icon_yellow.svg/2000px-Color_icon_yellow.svg.png") 50% 0 no-repeat fixed;
+*/  background-color: white;
+    color: black;
+}
+
+#home, #section2, #section3{
+  min-height: 700px;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0px auto;
+  position; relative;
+  background-size: cover;
+}
+
+#section2, #section3{
+    box-shadow: 0 0 20px rgba(0,0,0,4);
+}
+
+article{
+    padding: 100px;
+}
+
+/*.backgroundimage{
+    background: url("https://static.pexels.com/photos/7480/sky-night-stars.jpg") ;
+    display: block;
+    height: 100%;
+    margin: 0px auto;
+    width: 517px;
+}*/
